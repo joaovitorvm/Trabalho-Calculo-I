@@ -1,3 +1,4 @@
+import parte01
 import numpy as np
 
 # Q1 - Cilindro fechado: volume de 1000 cm³
