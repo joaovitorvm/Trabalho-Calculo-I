@@ -8,9 +8,9 @@ s1 = minimize_scalar(
 
 print("\n[S1 - Cilindro | Método Golden]")
 print(f"  Raio ótimo (x*)       = {s1.x:.8f} cm")
-print(f"  Área mínima           = {s1.fun:.8f} cm²")
-print(f"  Iterações             = {s1.nit}")
-print(f"  Nº de avaliações      = {s1.nfev}")
+print(f"  Área mínima           = {s1.fun:.8f} cm²") #minimizada
+print(f"  Iterações             = {s1.nit}") #função para validar o número de NIT
+print(f"  Nº de avaliações      = {s1.nfev}") #Number of Function 
 print(f"  Convergiu             = {s1.success}")
 
 # Compara o resultado com o seu método de Newton-Raphson
